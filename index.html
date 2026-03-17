@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora Interativa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Seção de introdução -->
+  <section class="intro fade-in">
+    <h1>Calculadora Interativa</h1>
+    <p>Uma calculadora simples e moderna para as operações básicas: adição, subtração, divisão e multiplicação.</p>
+  </section>
+
+  <!-- Seção de funcionalidades -->
+  <section class="features fade-in">
+    <h2>Funcionalidades</h2>
+    <ul>
+      <li>Adição (soma)</li>
+      <li>Subtração</li>
+      <li>Multiplicação</li>
+      <li>Divisão</li>
+      <li>Resultado instantâneo ao clicar em "Calcular"</li>
+    </ul>
+  </section>
+
+  <!-- Seção da calculadora -->
+  <section class="calculator fade-in">
+    <h2>Calculadora</h2>
+    <div class="calc-wrapper">
+      <input type="number" id="num1" placeholder="Número 1" />
+      <select id="operation">
+        <option value="add">+</option>
+        <option value="sub">−</option>
+        <option value="mul">×</option>
+        <option value="div">÷</option>
+      </select>
+      <input type="number" id="num2" placeholder="Número 2" />
+      <button id="btnCalculate" class="btn">Calcular</button>
+      <div id="result" class="result">Resultado: —</div>
+    </div>
+  </section>
+
+  <!-- Seção do dono do site -->
+  <section class="owner fade-in">
+    <h2>Dono do site</h2>
+    <p><strong>Fernando Lima</strong></p>
+    <p>
+      Contato:
+      <a href="https://www.linkedin.com/in/fernando-de-oliveira-a8bbb1278" target="_blank">
+        www.linkedin.com/in/fernando-de-oliveira-a8bbb1278
+      </a>
+    </p>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
